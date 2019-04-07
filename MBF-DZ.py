@@ -133,7 +133,7 @@ def saring_id_group1(d):
 		if i.find('profile.php') == -1:
 			a = i.replace('?','')
 		else:
-			a = i.replace('profile.php?id=','').replace('&amp;','')
+			a = i.replace('profile.php?id=','').replace('&','')
 		if a not in id_bgroup:
 			tampil('\rk==>\rc%s'%a)
 			id_bgroup.append(a)
@@ -142,7 +142,7 @@ def saring_id_group0():
 	while 1:
 		id_group = inputD('[?]Id Group')
 		tampil('\rh[*]Mengecek Group....')
-		a = buka('https://m.facebook.com/browse/group/members/?id='+id_group+'&amp;start=0&amp;listType=list_nonfriend&amp;refid=18&amp;_rdc=1&amp;_rdr')
+		a = buka('https://m.facebook.com/browse/group/members/?id='+id_group+'&start=0&listType=list_nonfriend&refid=18&_rdc=1&_rdr')
 		nama = ' '.join(re.findall(r'<title>(.*?)</title>',a)[0].split()[1:])
 		try:
 			next = br.find_link(url_regex= '/browse/group/members/').url
@@ -349,7 +349,7 @@ def menu():
 #             \rb*MULTY BRUTEFORCE FACEBOOK*\rk                 #
 # \rhBY\rp                                             RUZTAM D'ROCK \rk#
 # \rhAccunt FB\rp IlıılıIlılı RuztamD'rock IlıılıIlılı \rk#
-# \rhGitHub\rp                      https://github.com/Noob-Prject \rk#
+# \rhGitHub\rp                      https://github.com/MBF-DarkZonk \rk #
 #       \rmGunakan dengan bijak          \rk#
 ###########################################################''')
       tampil('''\rk%s\n\rc1 \rhAmbil id dari group\n\rc2 \rhAmbil id dari daftar teman\n\rc3 \rmKELUAR\n\rk%s'''%('#'*20,'#'*20))
