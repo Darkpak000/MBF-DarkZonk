@@ -348,7 +348,7 @@ def menu():
 \rk###########################################################
 #             \rb*MULTY BRUTEFORCE FACEBOOK*\rk                 #
 # \rhBY\rp                                             RUZTAM D'ROCK \rk#
-# \rhAccunt FB\rp IlıılıIlılı RuztamD'rock IlıılıIlılı \rk#
+# \rhAccunt FB\rp https://m.facebook.com/ruztam.darklink.666 \rk#
 # \rhGitHub\rp                      https://github.com/MBF-DarkZonk \rk #
 #       \rmGunakan dengan bijak          \rk#
 ###########################################################''')
